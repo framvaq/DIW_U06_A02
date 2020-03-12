@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum de Fotos con jQuery</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/animaciones.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <div class="row libro">
+            <div class="paginas">
+
+                <div id="principal" class="col-ms-6 col-md-6 jumbotron">
+                    <h1>Álbum de fotos</h1>
+                    <p>Para ver la foto siguiente, haz click en la foto</p>
+                    <p>Para ver la imagen anterior, haz click en esta página</p>
+                </div>
+
+                <div id="img1" class="col-ms-6 col-md-6 pag jumbotron inicial">
+                    <div class="card"><img src="img/persona01.jpg" class="card-img-top" alt="Foto de María">
+                        <div class="card-body">
+                            <p class="card-text lead">1-María</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="img2" class="col-ms-6 col-md-6 pag jumbotron inicial">
+                    <div class="card"><img src="img/persona02.jpg" class="card-img-top" alt="Foto de Pepe">
+                        <div class="card-body">
+                            <p class="card-text lead">2-Pepe</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="img3" class="col-ms-6 col-md-6 pag jumbotron inicial">
+                    <div class="card"><img src="img/persona03.jpg" class="card-img-top" alt="Foto de Juan">
+                        <div class="card-body">
+                            <p class="card-text lead">3-Juan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="img4" class="col-ms-6 col-md-6 pag jumbotron inicial">
+                    <div class="card"><img src="img/persona04.jpg" class="card-img-top" alt="Foto de Ana">
+                        <div class="card-body">
+                            <p class="card-text lead">4-Ana</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h3><small class="text-muted">Fuente de las fotos: <a href="thispersondoesnotexist.com">thispersondoesnotexist.com</a></small></h3>
+
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

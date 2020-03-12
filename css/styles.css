@@ -1,0 +1,65 @@
+* {
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right:0;
+    background-color: lightblue;
+}
+
+.libro {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: chocolate;
+    height: 90vh;
+    width: 97vw;
+    position: absolute;
+    left: 2vw;
+}
+
+.paginas {
+    position: absolute;
+    top: 1vh;
+    left: 0px;
+    width: 99%;
+    height: 99%;
+}
+
+.jumbotron {
+    width: 90vw;
+    height: 87vh;
+    background-color: bisque;
+    position: absolute;
+    top: 0px;
+}
+
+.anterior {
+    left: 0px;
+}
+
+.pag {
+    left: 50%;
+    border-radius: 25px 255px 25px 15px/5px 25px 555px 35px;
+    /* He invertido los valores por defecto del jumbotron, para que dé la sensación de que el libro está abierto por la mitad
+border-radius: top-left top-right bottom-right bottom-left 
+    */
+}
+
+.card {
+    top: -1.5vh;
+}
+img {
+    height: 60vh;
+    width: 40vw;
+}
+
+
+/*Las imágenes que no sean la primera están ocultas
+div.pag:not(#img1){
+    opacity: 0;
+}*/
+

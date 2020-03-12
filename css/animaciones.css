@@ -1,0 +1,58 @@
+.siguiente {
+    animation-name: siguiente;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    /*Para que se quede con los valores finales de la animación*/
+    animation-fill-mode: forwards;
+}
+
+/*
+imagen=410px
+padding=15px
+total=425px
+*/
+@keyframes siguiente {
+    100% {
+        transform: scaleX(-1);
+        opacity: 0;
+        left: 0px;
+    }
+}
+
+.anterior{
+    animation-name: anterior;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anterior{
+    0% {
+        transform: scaleX(-1);
+        opacity: 0;
+        left: 0px;
+    }
+    100%{
+        transform: scaleX(1);
+        opacity:1;
+        left: 50%;
+
+    }
+}
+.desaparecer {
+    left: 0px;
+    transform: scaleX(-1);
+    height: 87vh;
+    animation-delay: 0.5s;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    animation-name: desapareciendo;
+    animation-fill-mode: forwards;
+    opacity: .5;
+}
+
+@keyframes desapareciendo {
+    100% {
+        opacity: 0;
+    }
+}
