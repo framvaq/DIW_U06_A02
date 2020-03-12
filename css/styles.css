@@ -50,16 +50,22 @@ border-radius: top-left top-right bottom-right bottom-left
 }
 
 .card {
-    top: -1.5vh;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 10%;
+    bottom: 5%;
+    
 }
 img {
     height: 60vh;
     width: 40vw;
 }
 
-
-/*Las imágenes que no sean la primera están ocultas
-div.pag:not(#img1){
+#ocultar {
     opacity: 0;
-}*/
+}
 
+#fondo {
+    background-color: white;
+}

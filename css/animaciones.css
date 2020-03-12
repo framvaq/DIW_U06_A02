@@ -1,6 +1,6 @@
 .siguiente {
     animation-name: siguiente;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in;
     animation-duration: 1s;
     /*Para que se quede con los valores finales de la animación*/
     animation-fill-mode: forwards;
@@ -14,7 +14,7 @@ total=425px
 @keyframes siguiente {
     100% {
         transform: scaleX(-1);
-        opacity: 0;
+        opacity: 0.5;
         left: 0px;
     }
 }
@@ -39,6 +39,7 @@ total=425px
 
     }
 }
+
 .desaparecer {
     left: 0px;
     transform: scaleX(-1);
